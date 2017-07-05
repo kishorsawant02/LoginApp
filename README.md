@@ -1,5 +1,5 @@
 # LoginApp
-Node js login &amp; registration app, using expresss, mysql and passport js.
+Node login &amp; registration app, using expresss, mysql and passport js.
 
 ### Version
 1.1.0
