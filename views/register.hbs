@@ -1,0 +1,103 @@
+<div class="container">
+	<form method="post" action="/users/register">
+	    <div class="row form-group">
+            <label class="col-md-2 control-label" for="firstName">First Name</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-user"></i>
+					</span>
+	              	<input id="text" maxlength="12" name="firstName" placeholder="Shrikant" class="form-control input-md" type="text" value="{{firstName}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="lastName">Last Name</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-user"></i>
+					</span>
+	              	<input id="text" maxlength="12" name="lastName" placeholder="Shrikant" class="form-control input-md" type="text" value="{{lastName}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="gender">Gender</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<label class="radio-inline"><input required type="radio" name="gender" value="male">Male</label>
+                	<label class="radio-inline"><input required type="radio" name="gender" value="female">Female</label>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="email">Email Id</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-inbox"></i>
+					</span>
+	              	<input id="email" maxlength="20" name="email" placeholder="xxxxxxxx@gmail.com" class="form-control input-md ac_email" type="email" value="{{email}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="mobile">Contact No.</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-phone"></i>
+					</span>
+	              	<input id="mobile" maxlength="10" name="mobile" placeholder="xxxxxxxxxxxx" class="form-control input-md" type="text" value="{{mobile}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+	        <label class="col-md-2 control-label" for="password">Password</label>
+	        <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-lock"></i>
+					</span>
+	              	<input id="password" minlength="5" maxlength="12" name="password" class="form-control input-md" type="password" value="{{password}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="address">address</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-globe"></i>
+					</span>
+	              	<input id="text" maxlength="20" name="address" class="form-control input-md" type="text" value="{{address}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="city">city</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-globe"></i>
+					</span>
+	              	<input id="text" maxlength="15" name="city" class="form-control input-md" type="text" value="{{city}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="state">state</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-globe"></i>
+					</span>
+	              	<input id="text" maxlength="15" name="state" class="form-control input-md" type="text" value="{{state}}" required>
+	            </div>
+			</div>
+		</div>
+	 
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>

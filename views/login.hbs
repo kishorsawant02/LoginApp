@@ -1,0 +1,27 @@
+<div class="container">
+	<form method="post" action="/users/login">
+		<div class="row form-group">
+            <label class="col-md-2 control-label" for="mobile">Username/Mobile No.</label>
+            <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-phone"></i>
+					</span>
+	              	<input id="mobile" minlength="10" maxlength="10" name="username" placeholder="xxxxxxxxxxxx" class="form-control input-md" type="text" value="{{mobile}}" required>
+	            </div>
+			</div>
+		</div>
+		<div class="row form-group">
+	        <label class="col-md-2 control-label" for="password">Password</label>
+	        <div class="col-md-5">
+	    		<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-lock"></i>
+					</span>
+	              	<input id="password" minlength="5" maxlength="12" name="password" class="form-control input-md" type="password" value="{{password}}" required>
+	            </div>
+			</div>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
